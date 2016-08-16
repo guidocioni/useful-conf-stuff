@@ -13,6 +13,8 @@ alias myqueue="squeue -u m300382"
 alias cancel="scancel -u m300382"
 alias work="cd /work/mh0731/m300382/; pwd"
 alias scratch="cd /scratch/m/m300382/"
+alias watchlog="watch tail -n 60"
+
 
 alias vnc="/opt/TurboVNC/bin/vncserver -geometry 1920x1200"
 

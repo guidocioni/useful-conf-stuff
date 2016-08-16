@@ -1,12 +1,14 @@
 [user]
-	name = Guido Cioni
-	email = guido.cioni@mpimet.mpg.de
+    name = Guido Cioni
+    email = guido.cioni@mpimet.mpg.de
 [core]
-	editor = vim
+    editor = vim
 [color]
-  diff = auto
-  status = auto
-  branch = auto
-  interactive = auto
-  ui = true
-  pager = true
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
+[alias]
+    hist = log --pretty=tformat:'%h %ai | %s%d [%an]' --graph --date=short
